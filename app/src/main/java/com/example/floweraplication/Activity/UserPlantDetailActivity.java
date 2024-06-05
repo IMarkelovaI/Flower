@@ -542,8 +542,6 @@ public class UserPlantDetailActivity extends AppCompatActivity {
 
         Date r = Date.from(d.atStartOfDay(ZoneId.systemDefault()).toInstant());*/
 
-
-
         long timestamp = System.currentTimeMillis();
         Calendar cal = Calendar.getInstance(Locale.ENGLISH);
         cal.setTimeInMillis(millisecondsSinceEpoch1);
